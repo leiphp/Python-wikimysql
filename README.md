@@ -16,7 +16,7 @@ python readmysql.py  #可读取已经保存mysql中数据
 ```
 ## 项目预览  
 ![预览](show.gif "数据保存到mysql中")  
-![数据](sql.jpg" 采集179条数据")  
+![数据](sql.jpg "采集179条数据")  
 
 ## 项目说明  
 1.对项目进行mysql操作之前，请确保已经安装了pymsql  
