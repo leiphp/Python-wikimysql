@@ -1,0 +1,2 @@
+# Python-wikimysql
+python数据采集案例，使用urllib和BeautifulSoup采集维基百科词条，并保存mysql数据库
