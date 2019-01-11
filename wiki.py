@@ -3,7 +3,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 
-# 请求URL并把结果用utf-8编码
+# 请求URL并把结果用utf8编码
 resp = urlopen("https://en.wikipedia.org/wiki/Main_Page").read().decode("utf-8")
 # 使用BeautifulSoup去解析
 soup = BeautifulSoup(resp, "html.parser")
